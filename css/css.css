@@ -1,9 +1,11 @@
 body {
 	background-color:#E0E0E0;
+	font-family: Raleway;
 }
 
 h1 {
 	font-family: Lobster;
+	color:#B71C1C;
 }
 
 .students{
@@ -15,4 +17,8 @@ h1 {
 }
 ul li{
 	list-style-position: inside;
+}
+
+#navbar-main{
+	background-color: #64B5F6;
 }
