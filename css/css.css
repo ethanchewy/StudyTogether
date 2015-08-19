@@ -21,4 +21,6 @@ ul li{
 
 #navbar-main{
 	background-color: #64B5F6;
+	border-radius:0px;
+	box-shadow: 3px 3px 5px #42A5F5;
 }
