@@ -10,3 +10,14 @@ h1 {
 	font-weight: 500;
 	line-height: 26.3999996185303px;
 }
+
+.students{
+	padding-left:20%;
+}
+
+.tutors{
+	padding-left:20%;
+}
+ul li{
+	list-style-position: inside;
+}
