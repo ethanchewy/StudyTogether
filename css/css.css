@@ -22,6 +22,7 @@ ul li{
 	background-color: #64B5F6;
 	border-radius:0px;
 	box-shadow: 3px 3px 5px #42A5F5;
+	width:100%;
 }
 /*
 #demobutton1{
@@ -45,5 +46,8 @@ span {
 	position:absolute;
 	bottom:0;
 	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color:white;
+
 }
