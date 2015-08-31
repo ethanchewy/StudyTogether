@@ -24,3 +24,12 @@ ul li{
 	border-radius:0px;
 	box-shadow: 3px 3px 5px #42A5F5;
 }
+
+.btn {
+	border:0;
+	background-color:transparent;
+}
+.btn:hover{
+	background-color:transparent;
+	opacity: 0.5;
+}
