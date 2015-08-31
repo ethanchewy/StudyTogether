@@ -24,12 +24,19 @@ ul li{
 	border-radius:0px;
 	box-shadow: 3px 3px 5px #42A5F5;
 }
-
-.btn {
-	border:0;
-	background-color:transparent;
+/*
+#demobutton1{
+	background-color:#B71C1C !important;
+	color:white;
 }
-.btn:hover{
-	background-color:transparent;
+#demobutton1:hover{
 	opacity: 0.5;
+}
+*/
+.glyphicon{
+	font-size: 200%;
+}
+
+span {
+	font-family: Raleway !important;
 }

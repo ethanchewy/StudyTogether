@@ -47,57 +47,65 @@
             </form>
         </div>
 
-
+        <div class="parallax-container" data-parallax="scroll" data-position="top">
         <!-- Title-->
-        <section class="container text-center" id="TitleSection">
-            <h1>StudyTogether</h1>
-            <h3><i>Peer Tutoring Made Easy</i></h3>
-        </section>
+            <section class="container text-center" id="TitleSection" data-parallax="scroll">
+                <h1>StudyTogether</h1>
+                <h3><i>Peer Tutoring Made Easy</i></h3>
+            </section>
 
-        <!-- Basic Info -->
-        <div class="container ">
-            <div class="row">
-            <!-- Columns Explaining Value Propositions -->
-                <div class = "col-md-6">
-                    <h2 class="text-center"><b>Student Benefits</b></h2>
-                    <ul class="students"> 
-                        <li>Get Help for Homework on a Variety of subjects</li>
-                        <li>Get immediate tutoring for 30 - 60 minutes</li>
-                    </ul>
-                </div>
-                
-                <div class = "col-md-6">
-                    <h2 class="text-center"><b>Student Tutors Benefits</b></h2>
-                    <ul class="tutors">
-                        <li>Help other students in your field of specialty</li>
-                        <li>Flexible scheduling</li>
-                        <li>Gain Key Club Volunteering Hours</li>
-                        <li>Gain National Honor Society Volunteering Hours</li>
-                    </ul>
+            <!-- Basic Info -->
+            <div class="container " data-parallax="scroll">
+                <div class="row">
+                <!-- Columns Explaining Value Propositions -->
+                    <div class = "col-md-6">
+                        <h2 class="text-center"><b>Student Benefits</b></h2>
+                        <ul class="students"> 
+                            <li>Get Help for Homework on a Variety of subjects</li>
+                            <li>Get immediate tutoring for 30 - 60 minutes</li>
+                        </ul>
+                    </div>
+                    
+                    <div class = "col-md-6">
+                        <h2 class="text-center"><b>Student Tutors Benefits</b></h2>
+                        <ul class="tutors">
+                            <li>Help other students in your field of specialty</li>
+                            <li>Flexible scheduling</li>
+                            <li>Gain Key Club Volunteering Hours</li>
+                            <li>Gain National Honor Society Volunteering Hours</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
         <br><br><br>
         
         <!-- Gives Two Choices => Student or Student Teacher-->
-        <section class="container text-center">
-            <h2> Demo Shown Below </h2>
-            <button type="button" class="btn btn-default btn-lg">
-              <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> 
+        <section class="container text-center" data-parallax="scroll" id="buttondemos">
+            <button type="button" id="demobutton1" class="btn btn-default btn-sm" href="index2.html">
+              <span class="glyphicon glyphicon-pencil"> 
+                &nbsp; Student Demo</span>
+            </button>
+            <button type="button" id="demobutton2" class="btn btn-default btn-sm" href="index3.html">
+              <span class="glyphicon glyphicon-apple"> &nbsp; Tutor Demo</span>
             </button>
         </section>
-         
-         
-         
-         
-         
+   
          
          
         <!-- JS Libaries -->
+        <script type="text/javascript">
+            document.getElementById("demobutton1").onclick = function () {
+                location.href = "index2.html";
+            };
+            document.getElementById("demobutton2").onclick = function () {
+                location.href = "index3.html";
+            };
+        </script>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.easing.min.js"></script>
+        <script src="js/parallax.min.js"></script>
         <!-- Custom JS -->
         <script src="js/javascript.js"></script>
     </body>
