@@ -1,7 +1,23 @@
+#chart-stage{  
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
 
-/*
- * Full-page application style
- */
+#box:hover #chart-stage {
+  opacity:1;
+}
+
+#plus {
+  font-family:Helvetica;
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  ont-size:96px;
+}
+
 
 body.application {
   background: #f2f2f2;
