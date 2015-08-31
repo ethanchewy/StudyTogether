@@ -2,7 +2,6 @@ body {
 	background-color:#E0E0E0;
 	font-family: Raleway;
 }
-
 h1 {
 	font-family: Lobster;
 	color:#B71C1C;
@@ -39,4 +38,12 @@ ul li{
 
 span {
 	font-family: Raleway !important;
+}
+
+.footer{
+	background-color:#616161;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	color:white;
 }
