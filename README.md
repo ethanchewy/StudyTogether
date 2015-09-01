@@ -3,18 +3,21 @@
 <hr>
 <img src="img/screenshot1.png"></img>
 <br>
-<br>
+
 <i>Desktop Home Page</i>
+<br>
 <br>
 <img src="img/screenshot2.png"></img>
 <br>
-<br>
+
 <i>Mobile Login Welcome Page (Student)</i>
+<br>
 <br>
 <img src="img/screenshot3.png"></img>
 <br>
-<br>
+
 <i>Mobile Login Welcome Page (Tutor)</i>
+<br>
 <br>
 
 <br><br>
