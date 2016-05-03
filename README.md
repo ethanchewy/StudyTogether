@@ -1,4 +1,5 @@
 # StudyTogether
+<b>**Just Frontend Was Developed. I'm no longer working on this.**</b>
 <i>Learn with other Wellesley High School Students</i>
 <hr>
 <img src="img/screenshot1.png"></img>
